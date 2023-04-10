@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Oswald", sans-serif;
+}
+.background {
+  background-image: url("images/mountain.jpg");
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container h1 {
+  font-size: 4rem;
+}
+
+/*SETTINGS */
+.setting {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.setting .fa-cog {
+  font-size: 3rem;
+  color: white;
+}
+.setting_content {
+  display: flex;
+  gap: 1rem;
+}
+
+.setting_content input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.setting_content button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+/*SETTING ENDS*/
+.hide {
+  display: none;
+}
+.time_container {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.time_container h2 {
+  line-height: 60px;
+  text-align: center;
+  font-size: 3rem;
+}
+.time_container div {
+  font-size: 4rem;
+  color: white;
+}
